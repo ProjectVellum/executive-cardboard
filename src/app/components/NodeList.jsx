@@ -46,7 +46,8 @@ class NodeList extends React.Component {
             >
                 <div className="sidebar-header">
                     <div style={{ height: "30px", marginLeft: "0px", width: "20%", padding: "0px" }}>
-                        <MenuButton className="btn-close"
+                        <MenuButton
+                            className="btn-close"
                             name="X"
                             menuToToggle="NodeList"
                         />

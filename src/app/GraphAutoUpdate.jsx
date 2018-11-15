@@ -22,7 +22,7 @@ import React from 'react';
 import { connect } from 'react-redux';
 
 import { bindActionCreators } from 'redux';
-
+import { Button } from 'reactstrap';
 import { IconTypes } from 'const/icons.jsx';
 import { fetchGraphData } from 'redux/graph/r_graph.jsx';
 import { SelectNode, AddNode, } from 'redux/graph/r_graph_actions.jsx';
@@ -78,17 +78,17 @@ class GraphAutoUpdate extends React.Component {
     render() {
         return (
             <div>
-                <button
+                {/* <button
                     onClick={() =>
                         this.props.addNode(this.updateNodeGraph())
                     }
-                >Add</button>
+                >Add</button> */}
 
-                <button
+                <Button color="info" style={{ margin: "10px 0 10px 10px" }}
                     onClick={() =>
                         this.props.fetchNode()
                     }
-                >fetch</button>
+                >Refresh Graph</Button>
             </div>
         )//return
     }//render
