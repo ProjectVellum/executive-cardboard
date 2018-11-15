@@ -1,2 +1,2 @@
 # executive-cardboard
-Network visualization and management front end solution
+Network management and data visualization front-end solution.
