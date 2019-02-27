@@ -1,5 +1,0 @@
-#!/bin/bash
-
-THIS_DIR=`dirname $0`
-
-$THIS_DIR/../node_modules/.bin/webpack -d
